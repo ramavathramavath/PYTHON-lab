@@ -1,0 +1,19 @@
+mport random
+x=1
+n=random.randint(1,100)
+print("guess the number ")
+print("you have 5 chances ")
+while (x<=6):
+	g=int(input("gues the number: "))
+	if (n==g):
+		print("you won")
+		break
+	elif (x==6):
+		print("your chances are finished")
+		print("game over")
+	elif (g<n):
+		print("your number is low ")
+		x+=1
+	elif (n<g):
+		print ("your number is high ")
+		x+=1
