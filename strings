@@ -1,0 +1,35 @@
+my_string = "Hello, World!"
+print(my_string[0:5]) # Output: Hello
+print(my_string[7:]) # Output: World!
+print(my_string[:5]) # Output: Hello
+print(my_string[-6:]) # Output: world!
+
+string1 = "Hello"
+string2 = "World"
+concatenated_string = string1 + ' ' + string2
+print(concatenated_string) # Output: Hello World
+
+my_string = "Hello, World!"
+length = len(my_string)
+print(length) # Output: 13
+
+text = "Hello World"
+print(text.lower())  # Output: "hello world"
+text = "Hello World"
+print(text.split())  # Output: ["Hello", "World"]
+
+text = "apple,banana,cherry"
+print(text.split(","))  # Output: ["apple", "banana", "cherry"]
+
+text = "Hello World"
+print(text.find("World"))  # Output: 25
+print(text.find("Python"))
+
+my_string = "Hello, World!"
+print(my_string.lower()) # Output: hello, world!
+print(my_string.upper()) # Output: HELLO, WORLD!
+print(my_string.strip()) # Output: Hello, World! (no leading/trailing whitespace)
+print(my_string.split(',')) # Output: ['Hello', ' World!']
+print(my_string.replace('Hello', 'Hi'))# Output: Hi, World!
+print(my_string.find('World')) # Output: 7
+
