@@ -1,0 +1,6 @@
+n=int(input("enter the number"))
+d={}
+key=input("enter the key")
+value=("enter the value")
+d[key]=value
+print(d)
